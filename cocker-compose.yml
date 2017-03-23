@@ -1,0 +1,4 @@
+mongodb:
+  image: registry.OXY.local:5000/mongo
+  ports:
+    - "27017:27017"

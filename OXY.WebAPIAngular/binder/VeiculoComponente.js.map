@@ -1,0 +1,1 @@
+{"version":3,"file":"VeiculoComponente.js","sourceRoot":"","sources":["VeiculoComponente.ts"],"names":[],"mappings":";;;;;;;;AAAA,sCAA0C;AAC1C,4CAA2C;AAO3C,IAAa,iBAAiB;IAN9B;QAQI,eAAU,GAAY,IAAI,iBAAO,EAAE,CAAC;IACxC,CAAC;IAAD,wBAAC;AAAD,CAAC,AAHD,IAGC;AAHY,iBAAiB;IAN7B,gBAAS,CACN;QACI,QAAQ,EAAE,YAAY;QACtB,WAAW,EAAE,cAAc;KAC9B,CACJ;GACY,iBAAiB,CAG7B;AAHY,8CAAiB"}

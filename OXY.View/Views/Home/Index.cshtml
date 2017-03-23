@@ -1,0 +1,63 @@
+﻿@model OXY.Teste.Veiculos.Data.VeiculoEN
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/angular.min.js"></script>
+<h2>Index</h2>
+
+<table>
+    
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Placa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Placa)
+        </th>
+
+    </tr>
+    
+    
+    <tr>
+        
+         
+    </tr>
+        <dl class="dl-horizontal">
+            
+
+            <dt>
+                @Html.DisplayFor(model => model.Placa)
+            </dt>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Renavam)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Renavam)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.NomeProprietario)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NomeProprietario)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Cpf)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Cpf)
+            </dd>
+
+        </dl>
+</table>
+        <p>
+            @Html.ActionLink("Edit", "Edit")
+            @Html.ActionLink("Back to List", "Index")
+        </p>
